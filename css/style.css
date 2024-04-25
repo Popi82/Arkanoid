@@ -1,0 +1,95 @@
+@font-face{
+    font-family: "RETROTECH";
+    src: url(../font/RETROTECH.ttf);
+}    
+body{
+    text-align:center;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1{
+    font-family: RETROTECH;
+    text-align: center;
+    font-size: 52px;
+    color:white;
+}
+table{
+    background-color: rgb(62, 59,59);
+    border:5px groove rgb(237, 175, 5) ;
+    border-radius: 10px;
+    margin: auto;
+    width:800px;
+    height:500px;
+}
+tr{
+    border:2px outset gray ;
+    background-color: rgb(62, 59,59);
+    border-radius:5px ;
+
+}
+td{
+    border:1px outset grey ;
+    background-color: rgb(62, 59,59);
+    border-radius:2px ;
+    width:40px;
+    height:40px;
+}
+#sinborde{
+    empty-cells: hide;
+}
+#negro{
+    background-color:black;
+    border: 5px solid black;
+}
+#high{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color:red;
+    font-size: 40px;
+}
+h2{
+    margin-top: 0%;
+    margin-bottom:0%;
+    color: white; 
+    font-size: 32px;  
+    margin-right: 50px; 
+    margin-left: 50px;
+}
+#gris{
+    background-color: rgb(62, 59,59);
+}
+#red{
+    background-color: rgb(239, 5, 5);
+}
+#amarillo{
+    background-color: rgb(239, 216, 5);
+}
+#azul{
+    background-color: blue;
+}
+#rosa{
+    background-color: violet;
+}
+#verde{
+    background-color: green;
+}
+#imagen{
+    width: 80px;
+    height: 40px;
+}
+#cursor{
+    border: 0px  rgb(62, 59,59);
+    background-color:rgb(62, 59,59);
+
+}
+#bola{
+    width: 40px;
+    height: 40px;
+    font-size: 120px;
+    color: white;
+    border: 0px  rgb(62, 59,59);
+    background-color:rgb(62, 59,59);
+
+}
